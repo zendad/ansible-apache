@@ -22,3 +22,11 @@ The IP address and ports on which apache should be listening. Useful if you have
     apache_create_vhosts: true
     apache_vhosts_filename: "v1.conf"
     apache_vhosts_template: "vhosts.conf.j2"
+    
+Hosts and user for each server can be defined in apache.yml
+    
+## Usage
+```
+ansible-playbook apache.yml
+
+```
