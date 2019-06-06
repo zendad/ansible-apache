@@ -1,0 +1,7 @@
+- name: Apache 2.4
+  hosts: localhost
+  remote_user: "{{ web_user }}"
+  become: true
+  roles:
+    - role: apache
+
